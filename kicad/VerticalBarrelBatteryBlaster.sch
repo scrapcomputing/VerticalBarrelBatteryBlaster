@@ -5,8 +5,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "Vertical Barrel Battery Blaster"
-Date "2023-06-26"
-Rev "rev.0.1"
+Date "2023-07-15"
+Rev "rev.0.2"
 Comp "Scrap Computing"
 Comment1 ""
 Comment2 ""
