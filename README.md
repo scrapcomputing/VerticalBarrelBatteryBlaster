@@ -6,9 +6,11 @@ This particular PCB is for the vertical type of CR2032 battery holders.
 Barrel batteries were quite common on vintage computer motherboards up until the 486 era.
 These barrel batteries tend to leak, damaging the motherboard and the surrounding components.
 
-<img src='img/VerticalBarrelBatteryBlaster_PCB_front.jpg' alt='Barrel Battery Blaster' width=240>
+<img src='img/VerticalBarrelBatteryBlaster.jpg' alt='Vertical Barrel Battery Blaster'>
 <p float="left">
-<img src='img/VerticalBarrelBatteryBlaster_PCB_back.jpg' alt='Barrel Battery Blaster PCB' width=240>
+<img src='img/VerticalBarrelBatteryBlaster_PCB_front.jpg' alt='Vertical Barrel Battery Blaster PCB front' width=240>
+<p float="left">
+<img src='img/VerticalBarrelBatteryBlaster_PCB_back.jpg' alt='Vertical Barrel Battery Blaster PCB back' width=240>
 </p>
 
 For a similar project that uses a horizontal CR2032 project please checkout the [Barrel Batter Blaster](https://github.com/scrapcomputing/BarrelBatteryBlaster) project.
