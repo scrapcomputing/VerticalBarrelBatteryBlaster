@@ -13,7 +13,16 @@ These barrel batteries tend to leak, damaging the motherboard and the surroundin
 <img src='img/VerticalBarrelBatteryBlaster_PCB_back.jpg' alt='Vertical Barrel Battery Blaster PCB back' width=240>
 </p>
 
-For a similar project that uses a horizontal CR2032 project please checkout the [Barrel Batter Blaster](https://github.com/scrapcomputing/BarrelBatteryBlaster) project.
+> **Warning**
+> Older systems may require a higher voltage than the 3V - diode voltage drop that this board can provide. For these systems please use a board with a MAX40200 ideal diode like [Not-A-Varta](https://github.com/wiretap-retro/Not-A-Varta-CR2032) or [Horizontal Barrel Battery Blaster](https://github.com/scrapcomputing/HorizontalBarrelBatteryBlaster) rev.0.2+.
+
+# Similar Projects
+- [Not-A-Varta](https://github.com/wiretap-retro/Not-A-Varta-CR2032) Uses a MAX40200 ideal diode
+- [Horizontal Barrel Battery Blaster](https://github.com/scrapcomputing/HorizontalBarrelBatteryBlaster) Works with several types of diodes, including a MAX40200.
+- [Barrel Battery Blaster](https://github.com/scrapcomputing/BarrelBatteryBlaster)
+
+# Video
+https://www.youtube.com/watch?v=O76bEk7QzwA
 
 # How can I get one?
 
@@ -26,5 +35,5 @@ Item                                           | #   | Description
 -----------------------------------------------|-----|-----------------------------------------
 Male header pins out of a 2.54mm pitch header  | 2   | For connecting the VerticalBarrelBatteryBlaster to the motherboard
 Vertically mounted 3-lead CR2032 battery holder| 1   | For the CR2032 Lithium battery
-Transistor (preferably schottky, like 1N5817)  | 1   | To prevent the Lithium battery from being charged by the motherboard
+Diode (preferably schottky, like 1N5817)       | 1   | To prevent the Lithium battery from being charged by the motherboard
 
